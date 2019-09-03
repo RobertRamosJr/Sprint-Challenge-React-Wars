@@ -19,15 +19,14 @@ const App = () => {
   const [results, setResults] = useState([]);
 
   useEffect(() => {
-    function getData(){
-      axios
-        .get(`https://swapi.co/api/people/`)
+    
+      axios.get(`https://swapi.co/api/people/`)
         .then(res => {
           setResults(res.data.results);
         })
         .catch(err => console.log(err))
-    }
-    getData();
+    
+   
   },[])
 
   return (
