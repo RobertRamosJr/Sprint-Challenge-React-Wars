@@ -24,15 +24,25 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [x] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-- [ ] What does it mean to _think_ in react?
+React JS is a framework  (Created by FB) used to develope large scale, scaleable applications. Using the "Virtual DOM" it allows developers to make changes on the fly, simply  build components all in JS. 
 
-- [ ] Describe state.
+- [x] What does it mean to _think_ in react?
 
-- [ ] Describe props.
+Thinking in react is just a way of breaking down applications and making sure each component does its desired taks and usually only that taks.
 
-- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+- [x] Describe state.
+
+State is an object that determines how your components render & behave. In other words, “state” is what allows you to create components that are dynamic and interactive
+
+- [x] Describe props.
+
+Properties(props) is a method we use to share and pass data between different components
+
+- [x] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+Side effects are changes to your component that are outside the scope of said component. useEffect is a great way to to tell the effect that it needs to sync with a given propr or state when it changes.
 
 ## Project Set Up
 
